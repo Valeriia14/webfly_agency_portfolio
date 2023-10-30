@@ -237,16 +237,16 @@ img{
 	border-radius:50px;
 	text-transform:capitalize;
 	background-color:#88e066;
-	box-shadow:0px 2px 10px 3px rgba(235,52,167,0.15);
+	box-shadow:0px 2px 10px 3px rgba(47,165,0,0.15);
 }
 
 .btn-style-two:hover{
-    background-image: -ms-linear-gradient(left, #FF8441 0%, #f53d96 100%);
-    background-image: -moz-linear-gradient(left, #FF8441 0%, #f53d96 100%);
-    background-image: -o-linear-gradient(left, #FF8441 0%, #f53d96 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF8441), color-stop(100, #f53d96));
-    background-image: -webkit-linear-gradient(left, #FF8441 0%, #f53d96 100%);
-    background-image: linear-gradient(to right, #FF8441 0%, #f53d96 100%);
+    background-image: -ms-linear-gradient(left, #88e066 0%, #17da9b 100%);
+    background-image: -moz-linear-gradient(left, #88e066 0%, #17da9b 100%);
+    background-image: -o-linear-gradient(left, #88e066 0%, #17da9b 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #88e066), color-stop(100, #17da9b));
+    background-image: -webkit-linear-gradient(left, #88e066 0%, #17da9b 100%);
+    background-image: linear-gradient(to right, #88e066 0%, #17da9b 100%);
 	color:#ffffff;
 }
 
@@ -264,7 +264,7 @@ img{
 	border:2px solid #17DA9B;
 	text-transform:capitalize;
 	background-color:#17DA9B;
-	box-shadow:0px 2px 10px 3px rgba(235,52,167,0.15);
+	box-shadow:0px 2px 10px 3px rgba(53, 239, 189, 0.15);
 }
 
 .btn-style-three .fa{
@@ -291,7 +291,7 @@ img{
 	border:2px solid #17DA9B;
 	text-transform:capitalize;
 	background-color:#17DA9B;
-	box-shadow:0px 2px 10px 3px rgba(235,52,167,0.15);
+	box-shadow:0px 2px 10px 3px rgba(53, 239, 189, 0.15);
 }
 
 .btn-style-four:hover{
@@ -1947,7 +1947,7 @@ img{
 	top:0px;
 	width:0px;
 	height:5px;
-	background:-webkit-linear-gradient(left, #88e066, #ff873e);
+	background:-webkit-linear-gradient(left, #88e066, #983eff);
 	-webkit-transition:all 2000ms ease;
 	-ms-transition:all 2000ms ease;
 	-o-transition:all 2000ms ease;
@@ -3293,7 +3293,7 @@ img{
 }
 
 .team-block .inner-box:hover{
-	box-shadow:0px 15px 15px rgba(246,65,145,0.20);
+	box-shadow:0px 15px 15px rgba(28, 233, 89, 0.2);
 }
 
 .team-block .inner-box:before{
@@ -6782,8 +6782,8 @@ img{
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
-	background-color:#f435a0;
-	border-color:#f435a0;
+	background-color: #1eda98;
+    border-color: #87df66;
 }
 
 .ui-menu .ui-menu-item-wrapper{
@@ -7635,7 +7635,7 @@ img{
 	display:none;
 	background-position:center top;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
 }
 
 .banner-section-three .image-layer .icon-box{
@@ -7671,7 +7671,7 @@ img{
 	position:relative;
 	font-weight:600;
 	font-size:16px;
-	color:#2bdb92;
+	color:#81df69;
 	letter-spacing:2px;
 	margin-bottom:22px;
 	text-transform:uppercase;
