@@ -505,6 +505,27 @@
 	
 	$(window).on('load', function() {
 		handlePreloader();
-	});	
+	});
+
+	$('#modal_intro_agency').on('shown.bs.modal', function () {
+        $('#video_intro_agency')[0].play();
+    });
+
+	$('#subscribe').on('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+	  
+		var form = $(this);
+		var email = form.find('input[name="email"]').val();
+		
+		var content = "Dear Webfly, I am writing to express my interest in subscribing to your web service. Here's my email address " + email + ". Thank you."
+		// Construct the mailbox URL
+		var mailboxUrl = 'mailto:nick@webfly.io' + '?body=' + content;
+	
+		// Open the mailbox in a new tab or window
+		window.open(mailboxUrl);
+	
+		// Optionally, reset the form after submission
+		form.trigger('reset');
+    });
 
 })(window.jQuery);
