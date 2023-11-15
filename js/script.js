@@ -508,7 +508,7 @@
 	});
 
 	$('#modal_intro_agency').on('shown.bs.modal', function () {
-        $('#video_intro_agency')[0].play();
+        $('#video_intro_agency')[0].play();		
     });
 
 	$('#subscribe').on('submit', function (event) {
