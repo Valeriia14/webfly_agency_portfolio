@@ -528,4 +528,14 @@
 		form.trigger('reset');
     });
 
+	$('.project-block-two .image').mouseenter(function() {
+		var imgObj = $(this).find("img");
+		imgObj.attr('src', imgObj.attr('src').replace("png", "gif"));
+	});
+
+	$('.project-block-two .image').mouseleave(function() {
+		var imgObj = $(this).find("img");
+		imgObj.attr('src', imgObj.attr('src').replace("gif", "png"));
+	});
+
 })(window.jQuery);
