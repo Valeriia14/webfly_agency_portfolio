@@ -7380,7 +7380,7 @@ img {
 	font-family: 'Playfair Display', serif;
 	background: linear-gradient(to top, #17da9b 0%, #88e066 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: linear-gradient(to top, #17da9b 0%, #88e066 100%);
 }
 
 .services-block-five .inner-box:hover .icon-box {
@@ -8016,7 +8016,7 @@ img {
 .fluid-section-two .image-column {
 	position: absolute;
 	right: 0px;
-	top: -190px;
+	top: -90px;
 	width: 50%;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -8266,7 +8266,7 @@ img {
 	padding: 20px 0px 60px;
 }
 
-.testimonial-section-three:before {
+.services-page-section:before {
 	position: absolute;
 	content: '';
 	left: 0px;
