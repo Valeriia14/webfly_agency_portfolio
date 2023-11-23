@@ -445,22 +445,22 @@
 	
 	
 	//Contact Form Validation
-	if($('#contact-form').length){
-		$('#contact-form').validate({
-			rules: {
-				firstname: {
-					required: true
-				},
-				email: {
-					required: true,
-					email: true
-				},
-				message: {
-					required: true
-				}
-			}
-		});
-	}
+	// if($('#contact-form').length){
+	// 	$('#contact-form').validate({
+	// 		rules: {
+	// 			firstname: {
+	// 				required: true
+	// 			},
+	// 			email: {
+	// 				required: true,
+	// 				email: true
+	// 			},
+	// 			message: {
+	// 				required: true
+	// 			}
+	// 		}
+	// 	});
+	// }
 	
 	
 	// Scroll to a Specific Div
@@ -539,3 +539,29 @@
 	});
 
 })(window.jQuery);
+
+$(document).ready(function() {
+    $('#contact-form').on('submit', function(e) {
+        // Prevent the default form submit action
+        e.preventDefault();
+
+        // Serialize the form data
+        var formData = $(this).serialize();
+		// console.log(formData)
+        
+        // Send an AJAX POST request
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: formData,
+            success: function(response) {
+                // Handle success (you might want to parse JSON response if you set it up like that in PHP)
+                // alert('Message has been sent!');
+            },
+            error: function(xhr, status, error) {
+                // Handle error
+                // alert('An error occurred: ' + xhr.status + ' ' + error);
+            }
+        });
+    });
+});

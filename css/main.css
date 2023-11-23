@@ -92,7 +92,7 @@ body {
 a {
 	text-decoration: none;
 	cursor: pointer;
-	color: #88e066;
+	color: #1fd996;
 }
 
 button,
@@ -3587,7 +3587,7 @@ img {
 	background-image: -o-linear-gradient(left, #FA33A1 0%, #553add 100%);
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FA33A1), color-stop(100, #553add));
 	background-image: -webkit-linear-gradient(left, #FA33A1 0%, #553add 100%);
-	background-image: linear-gradient(to right, #FA33A1 0%, #553add 100%);
+	background-image: linear-gradient(to right, #88e066 0%, #18da9b 100%)
 }
 
 .contact-form-section .inner-container .icons-one {
