@@ -3576,18 +3576,17 @@ img {
 	position: relative;
 	padding: 60px 0px;
 	z-index: 1;
+
+	box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.70);
+    background-image: -ms-linear-gradient(left, #88e066 0%, #18da9b 100%);
+    background-image: -moz-linear-gradient(left, #88e066 0%, #18da9b 100%);
+    background-image: -o-linear-gradient(left, #88e066 0%, #18da9b 100%);
+    background-image: linear-gradient(to right, #88e066 0%, #18da9b 100%);
 }
 
 .contact-form-section .inner-container {
 	position: relative;
-	padding: 90px 90px 70px;
-	box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.70);
-	background-image: -ms-linear-gradient(left, #FA33A1 0%, #553add 100%);
-	background-image: -moz-linear-gradient(left, #FA33A1 0%, #553add 100%);
-	background-image: -o-linear-gradient(left, #FA33A1 0%, #553add 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FA33A1), color-stop(100, #553add));
-	background-image: -webkit-linear-gradient(left, #FA33A1 0%, #553add 100%);
-	background-image: linear-gradient(to right, #88e066 0%, #18da9b 100%)
+	padding: 90px 90px 70px;	
 }
 
 .contact-form-section .inner-container .icons-one {
@@ -3704,7 +3703,6 @@ img {
 .main-footer {
 	position: relative;
 	margin-top: 0px;
-	padding: 95px 0px 0px;
 	background-color: #f4f4f4;
 }
 
